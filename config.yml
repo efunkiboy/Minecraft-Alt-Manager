@@ -18,27 +18,30 @@ startup:
 
 discord:
 # Manage your discord settings
-  botToken: "" # Don't forget to enable intents (https://youtu.be/pzxVzEHk4ww?t=35)
+  botToken: "OTY3OTUzMjM3MTc1MDQ2MTg0.YmXysw.LX23LNqhJqa_vxRwi3ae2JWOKZo" # Don't forget to enable intents (https://youtu.be/pzxVzEHk4ww?t=35)
   prefix: "!"
 
 format:
 # Customize your embeds
   successTitle: "Success!"
   errorTitle: "Error!"
-  footer: "Dutched's Alt Manager v1.5.2"
+  footer: "Dutched's Alt Manager v1.5.0"
   embedColor: "#9702ed"
 
 minecraft:
 # Minecraft settings
   auth: "mojang" # Pick either mojang/microsoft
-  serverIP: "play.crystaldev.co"
+  serverIP: "play.lemoncloud.net"
   serverPort: "25565"
   version: "1.8.9"
-  joinCommand: "/ruby"
+  joinCommand: "/opfactions"
   joinDelay: 3 # Time in between alts joining (in seconds)
-  joinCommandDelay: 3 # Time in between an alt joining and executing the join command (in seconds)
   hideErrors: true # To hide the "unknown transaction" warning, if you have trouble getting the bots up you might want to change this to false
 
 alts:
 # This can be an infinite amount of alts, remember to fill it out like this "- AltEmail@email.com:Password123!"
-- AltEmail@email.com:Password123!
+- "earthangelbell@gmail.com:elliot21"
+- "norcs@yahoo.com.au:elliot2002"
+- "tom@thomasschmidt-bali.com:china1234561"
+- "charliealamb@icloud.com:Ofthegame1$"
+- "elamst86@gmail.com:stanbridge86"
